@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            padding-top: 70px
+        }
+    </style>
+    <title>Angular 2 Data Binidng</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+
+
+
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+
+    <script src="node_modules/typescript/lib/typescript.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err) {
+            console.error(err);
+        });
+    </script>
+</head>
+
+<body>
+    <my-app></my-app>
+</body>
+
+</html>

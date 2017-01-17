@@ -1,0 +1,113 @@
+## Angular 2 Development With TypeScript ##
+![alt tag](https://www.packtpub.com/sites/default/files/bookretailers/9781785889646.jpg)
+## [Web Development with Angular 2 and Bootstrap](https://www.packtpub.com/web-development/web-development-angular-2-and-bootstrap-video)
+
+Chapter 1. Introduction to Angular 2
+-------------------------------------------------
+-- Course Overview  (Introduction and objective of course and application overview  )
+-- Angular 2.0 vs Angular 1.0
+-- Installation and setup for Angular 2.0 with Typescript ES6
+-- Let’s start create first “Hello world ” application Angular 2.0
+
+
+Chapter 2. Getting Started with Angular 2
+----------------------------------------------------------
+
+--Bootstrap styles sass and JavaScript installation and setup for application.
+--Bootstrap fluid responsive layout with grid system 
+--Bootstrap responsive nav & navbar Header 
+--Bootstrap table, list, form and glyph icons & responsive utilities
+--Bootstrap carousel with bootstrap panel, accordion & tab menu
+--Creating Demo application Structure using Bootstrap Component
+
+
+Chapter 3. Module Bundler & Transpilers
+----------------------------------------------------------------
+
+--Writing application using Typescript/ECMAScript 5/ECMAScript 6.
+--TYPESCRIPT AS A LANGUAGE FOR ANGULAR APPLICATIONS
+--Understanding Universal Module Loader System JS.
+--Understanding Module Bundler Web pack.
+--Angular 2.0 different loaders and Transpilers using NPM  package managers
+--Typescript @ annotations for components, views & directives.
+--Hands-on: Getting Started with Application.
+
+
+Chapter 4. Angular 2.0 ES6 Features
+---------------------------------------------
+
+--Scope of Variables let & const Understanding different Template view and directives.
+--Template Literals & Optional Parameters with Default Values
+--Spread operator, Rest parameter and de-structuring 
+--Arrow Function Expressions and lexical scope Binding 
+--iterators Generators  with for Each(), for-in, and for-of
+--Classes and Inheritance
+--Asynchronous Processing with Promises
+--Modules import & Exports
+
+
+Chapter 5. Angular 2 Components & Modules
+---------------------------------------------
+
+--Angular 2 Components  & Modules.
+--Angular 2 Modular Development using @NgMOdule
+--Angular 2.0 Dom Shadow View Encapsulation
+--Angular 2 app Architecture 
+--Component Nesting  & Templates 
+--Angular Component Metadata
+--Component Communication with Input and Output.
+--Application development  with data binding & pipes
+
+Chapter 6. Angular 2.0 Components' Communication
+---------------------------------------------
+
+--Data Binding and Property Binding 
+--DOM events and  Event Binding
+--Two Way Data Binding 
+--Attribute Directives and Structural Directives
+--Pipes
+--Angular 2 Application lifecycle Hooks
+--Application development with data binding,pipes & Directives in  Angular 2
+
+
+Chapter 7. Dependency Injection in Angular 2
+---------------------------------------------
+--The Dependency Injection and Inversion Of Control Patterns
+--Injectors and Providers
+--Building a Service & Registering Service
+--Injecting the Service
+--Dependency Injection with Angular 2 Application
+
+
+Chapter 8.Routing with Angular 2
+--------------------------------------------------------------
+
+--Angular2.0 Understanding Routing Basics
+--Angular 2.0 Passing Data to Routes
+--Angular2.0 Understanding Using RouteParam Using RouteData
+--Child Routes & Auxiliary Routes
+--Lazy Loading with AsyncRoute
+--Hands-on: Using Routing in Our application
+
+
+Chapter 9. Forms in Angular 2
+-------------------------------------------------------
+
+--Introducing to Angular 20 forms
+--Form Controls Form Directives in Template Driven Forms
+--Template-Driven Forms  with  Validation 
+--Model driven forms or Reactive forms
+--Model driven forms or Reactive forms with Custom Validation
+--Angular 2.0 Application development with Angular forms 
+
+
+Chapter 10. Reactive programming in Angular 2.0
+--------------------------------------------------------------
+--Introduction of Reactive programming 
+--Observables and Reactive Extensions
+--Setting Up http service with RX JS
+--Sending an Http Request
+--Subscribing to an Observable
+--Adding Http service in Application 
+
+

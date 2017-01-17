@@ -1,0 +1,66 @@
+
+
+/* Small devices (tablets, 2000px and up) */
+@media ( min-width : 1199px) and (max-width: 2000px) { 
+		body {
+		font-size: 20px;
+	}
+	/*h1 font size with override*/
+	h1 {
+		font-size: 56px;
+	}
+	h1.home {
+		font-size: 42px;
+	}
+	h1.common {
+		font-size: 48px;
+	}
+}
+/* Medium devices (desktops, 1199px and up) */
+@media ( min-width : 992px) and (max-width: 1199px) { 
+		body {
+		font-size: 20px;
+	}
+	/*h1 font size with override*/
+	h1 {
+		font-size: 56px;
+	}
+	h1.home {
+		font-size: 42px;
+	}
+	h1.common {
+		font-size: 48px;
+	}
+}
+/* Large devices (large desktops, 992px and up) */
+@media ( min-width : 768px) and (max-width: 992px) {
+		body {
+		font-size: 20px;
+	}
+	/*h1 font size with override*/
+	h1 {
+		font-size: 56px;
+	}
+	h1.home {
+		font-size: 42px;
+	}
+	h1.common {
+		font-size: 48px;
+	}
+}
+/* Large devices (large desktops, 767px and up) */
+@media ( min-width : 480px) and (max-width: 767px) {
+		body {
+		font-size: 20px;
+	}
+	/*h1 font size with override*/
+	h1 {
+		font-size: 56px;
+	}
+	h1.home {
+		font-size: 42px;
+	}
+	h1.common {
+		font-size: 48px;
+	}
+}

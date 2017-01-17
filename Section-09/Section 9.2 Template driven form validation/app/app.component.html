@@ -1,0 +1,19 @@
+<div class="container jumbotron">
+  <h1>Add user</h1>
+  <form #f="ngForm" novalidate (ngSubmit)="save(f.value, f.valid)">
+    
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control" 
+        name="name" [(ngModel)]="user.name" 
+        #name="ngModel" required minlength="5">
+      <small [hidden]="name.valid || (name.pristine && !f.submitted)" class="text-danger">
+            Name is required (minimum 5 characters).
+      </small>
+    </div>
+
+  
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+ 
+</div>

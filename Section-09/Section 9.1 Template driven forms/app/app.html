@@ -1,0 +1,13 @@
+    <div class="container jumbotron">
+        <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+            <div class="form-group">
+                <div>Username:
+                    <input  type="text" name="username" ngModel></div>
+                </div>
+                <div class="form-group">
+                    <div>Password:
+                        <input type="text" name="password" ngModel></div>
+                    </div>
+                <button type="submit">Submit</button>
+        </form>
+    </div>

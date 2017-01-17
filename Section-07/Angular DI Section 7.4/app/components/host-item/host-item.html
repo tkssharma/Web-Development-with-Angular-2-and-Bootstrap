@@ -1,0 +1,11 @@
+<div class="thumbnail">
+    <img src={{host.image}}>
+    <div class="caption">
+        <h4 class="pull-right">{{ host.price | currency }}</h4>
+        <h4><a href="#">{{ host.title }}</a></h4>
+        <p>{{ host.description }}</p>
+    </div>
+    <div class="ratings">
+        <auction-stars [rating]="host.rating"></auction-stars>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="thumbnail">
+    <img src={{host.image}}>
+    <div class="caption" [routerLink]="['/host' , '3']">
+        <h4 class="pull-right">{{ host.price | currency }}</h4>
+        <h4><a [routerLink]="['/host' , '3']">{{ host.price }}</a></h4>
+        <p>{{ host.description }}</p>
+    </div>
+
+</div>

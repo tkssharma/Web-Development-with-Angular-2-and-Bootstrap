@@ -1,0 +1,12 @@
+<div class="thumbnail">
+
+  <img src={{host.image}}>
+  <div class="caption" [routerLink]="['/host', host.id]">
+    <h4 class="pull-right">{{ host.price | currency }}</h4>
+    <h4><a [routerLink]="['/host', host.id]">{{ host.title }}</a></h4>
+    <p>{{ host.description }}</p>
+  </div>
+  <div class="ratings">
+    <ng-stars [rating]="host.rating"></ng-stars>
+  </div>
+</div>

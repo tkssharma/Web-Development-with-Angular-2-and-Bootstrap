@@ -1,0 +1,6 @@
+ <div class="container jumbotron"> 
+    <form [formGroup]="formModel" (ngSubmit)="onSubmit()">
+      <div>Username: <input type="text" formControlName="username"></div>
+      <button type="submit">Submit</button>
+    </form>
+ </div>
