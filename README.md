@@ -4,33 +4,33 @@
 
 Chapter 1. Introduction to Angular 2
 -------------------------------------------------
--- Course Overview  (Introduction and objective of course and application overview  )
--- Angular 2.0 vs Angular 1.0
--- Installation and setup for Angular 2.0 with Typescript ES6
--- Let’s start create first “Hello world ” application Angular 2.0
+--  Course Overview  (Introduction and objective of course and application overview)
+--  Angular 2.0 vs Angular 1.0
+--  Installation and setup for Angular 2.0 with Typescript ES6
+--  Let’s start create first “Hello world ” application Angular 2.0
 
 
 Chapter 2. Getting Started with Angular 2
 ----------------------------------------------------------
 
---Bootstrap styles sass and JavaScript installation and setup for application.
---Bootstrap fluid responsive layout with grid system 
---Bootstrap responsive nav & navbar Header 
---Bootstrap table, list, form and glyph icons & responsive utilities
---Bootstrap carousel with bootstrap panel, accordion & tab menu
---Creating Demo application Structure using Bootstrap Component
+--  Bootstrap styles sass and JavaScript installation and setup for application.
+--  Bootstrap fluid responsive layout with grid system 
+--  Bootstrap responsive nav & navbar Header 
+--  Bootstrap table, list, form and glyph icons & responsive utilities
+--  Bootstrap carousel with bootstrap panel, accordion & tab menu
+--  Creating Demo application Structure using Bootstrap Component
 
 
 Chapter 3. Module Bundler & Transpilers
 ----------------------------------------------------------------
 
---Writing application using Typescript/ECMAScript 5/ECMAScript 6.
---TYPESCRIPT AS A LANGUAGE FOR ANGULAR APPLICATIONS
---Understanding Universal Module Loader System JS.
---Understanding Module Bundler Web pack.
---Angular 2.0 different loaders and Transpilers using NPM  package managers
---Typescript @ annotations for components, views & directives.
---Hands-on: Getting Started with Application.
+--  Writing application using Typescript/ECMAScript 5/ECMAScript 6.
+--  TYPESCRIPT AS A LANGUAGE FOR ANGULAR APPLICATIONS
+--  Understanding Universal Module Loader System JS.
+--  Understanding Module Bundler Web pack.
+--  Angular 2.0 different loaders and Transpilers using NPM  package managers
+--  Typescript @ annotations for components, views & directives.
+--  Hands-on: Getting Started with Application.
 
 
 Chapter 4. Angular 2.0 ES6 Features
