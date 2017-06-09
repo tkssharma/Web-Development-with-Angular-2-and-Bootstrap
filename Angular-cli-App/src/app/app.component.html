@@ -1,15 +1,15 @@
+
+<div class="container">
 <h2>{{title}}</h2>
-<p>
-New hero:
-  <input type="text" #box
+<div class="form-group">
+  <input type="text" #box class="form-control"
           (keyup.enter)="addUser(box.value); box.value=''"
           placeholder="User name">
   <input id="can-fly" type="checkbox" [(ngModel)]="canFly"> can fly
-</p>
-<p>
   <input id="mutate" type="checkbox" [(ngModel)]="mutate">Mutate array
-  <button (click)="reset()">Reset</button>
-</p>
+  <br/>
+  <button class="btn btn-primary" (click)="reset()">Reset</button>
+</div>
 
 <h4>Heroes who fly (piped)</h4>
 <div id="flyers">
@@ -21,6 +21,8 @@ New hero:
 <h4>All Heroes (no pipe)</h4>
 <div id="all">
   <div *ngFor="let user of users">
-    {{hero.name}}
+    {{user.name}}
   </div>
+</div>
+
 </div>

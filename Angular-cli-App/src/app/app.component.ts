@@ -16,7 +16,7 @@
 
     constructor() { this.reset(); }
 
-    addHero(name: string) {
+    addUser(name: string) {
       name = name.trim();
       if (!name) { return; }
       let hero = {name, canFly: this.canFly};
