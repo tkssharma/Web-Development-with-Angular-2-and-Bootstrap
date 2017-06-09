@@ -9,13 +9,15 @@ import {AppServiceService} from './app-service.service';
 import {AuthModuleModule}  from './auth-module/auth-module.module';
 import { ColorRedDirective } from './color-red.directive';
 import { BgDirectiveDirective } from './bg-directive.directive';
+import { userPipe } from './user.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppChildComponent,
     ColorRedDirective,
-    BgDirectiveDirective
+    BgDirectiveDirective,
+    userPipe
   ],
   imports: [
     BrowserModule,

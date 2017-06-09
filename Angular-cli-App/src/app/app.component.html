@@ -1,6 +1,26 @@
-<h1>
-  {{title}}
-  {{message}}
-  <div appBgDirective>hello my name is tarun</div>
-  <app-app-child></app-app-child>
-</h1>
+<h2>{{title}}</h2>
+<p>
+New hero:
+  <input type="text" #box
+          (keyup.enter)="addUser(box.value); box.value=''"
+          placeholder="User name">
+  <input id="can-fly" type="checkbox" [(ngModel)]="canFly"> can fly
+</p>
+<p>
+  <input id="mutate" type="checkbox" [(ngModel)]="mutate">Mutate array
+  <button (click)="reset()">Reset</button>
+</p>
+
+<h4>Heroes who fly (piped)</h4>
+<div id="flyers">
+  <div *ngFor="let user of (users | flyingUsers)">
+    {{user.name}}
+  </div>
+</div>
+
+<h4>All Heroes (no pipe)</h4>
+<div id="all">
+  <div *ngFor="let user of users">
+    {{hero.name}}
+  </div>
+</div>
