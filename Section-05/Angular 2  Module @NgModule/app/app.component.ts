@@ -5,7 +5,7 @@ import {Component} from '@angular/core';
   selector: 'my-app',
   template: `
     <div class="app">
-    <h1>Hello World</h1>
+    <h1>Hello World 2017</h1>
     </div>
   `,
 })
@@ -14,5 +14,3 @@ import {Component} from '@angular/core';
 }
 
 export default AppComponent;
-
-

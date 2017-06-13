@@ -33,4 +33,4 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
   }
 }
 
-export default export;
+export default CounterComponent;
