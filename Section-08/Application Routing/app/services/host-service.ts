@@ -25,7 +25,11 @@ export class Review {
 
 @Injectable()
 export class HostService {
-
+  getdata():Host[] {
+    return hosts.map(function(p){
+     new Host(p.id, p.title, p.price, p.rating, p.description, p.categories,p.image)
+     });
+  }
   gethosts(): Host[] {
     return hosts.map(p => new Host(p.id, p.title, p.price, p.rating, p.description, p.categories,p.image));
   }

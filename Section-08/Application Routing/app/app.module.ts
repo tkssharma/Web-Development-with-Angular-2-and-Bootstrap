@@ -15,20 +15,19 @@ import HomeComponent from "./components/home/home";
 import LoginComponent from "./components/login/login";
 import ProfileComponent from "./components/profile/profile";
 import HostDetailComponent from "./components/host-item/host-detail";
-
-
-
+import PageNotFoundComponen from "./components/PageNotFoundComponen"
 const routes: Routes = [
     {path: '',    component: HomeComponent},
     {path: 'login', component: LoginComponent},
     {path: 'profile', component: ProfileComponent},
-    {path: 'host/:id', component : HostDetailComponent}
+    {path: 'host/:id', component : HostDetailComponent},
+    {path : '**', component : PageNotFoundComponen}
 ];
 
 @NgModule({
     imports:      [ BrowserModule, RouterModule.forRoot(routes)],
     declarations: [ ApplicationComponent,CarouselComponent,FooterComponent,
-                    NavbarComponent,HomeComponent,HostItemComponent,
+                    NavbarComponent,HomeComponent,HostItemComponent,PageNotFoundComponen,
                     LoginComponent,ProfileComponent,HostDetailComponent],
     providers:    [ HostService ,{provide: LocationStrategy, useClass: HashLocationStrategy}],
     bootstrap:    [ ApplicationComponent ]
