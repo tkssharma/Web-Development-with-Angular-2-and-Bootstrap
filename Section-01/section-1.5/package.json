@@ -1,0 +1,14 @@
+{
+  "name": "nghelloworldapp",
+  "version": "1.0.0",
+  "description": "https://thinkster.io/topics/angular2",
+  "main": "config.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

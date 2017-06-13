@@ -12,8 +12,6 @@ import { HostListComponent } from './hosts/host-list.component';
 @NgModule({
     imports:      [ BrowserModule, ReactiveFormsModule,RouterModule],
     declarations: [],
-    providers:    [
-                   {provide: LocationStrategy, useClass: HashLocationStrategy}],
     bootstrap:    [ ApplicationComponent ]
 })
 export class AppModule { }

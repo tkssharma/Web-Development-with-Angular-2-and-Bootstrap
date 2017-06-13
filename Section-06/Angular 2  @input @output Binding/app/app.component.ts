@@ -16,7 +16,6 @@ import {CounterComponent} from './counter.component';
       <counter [counterValue]="myValue" (counterChange)="myValueChange($event);"></counter>
     </div>
   `,
-  directives: [CounterComponent]
 })
 export class AppComponent {
   public myValue:number = 2;
