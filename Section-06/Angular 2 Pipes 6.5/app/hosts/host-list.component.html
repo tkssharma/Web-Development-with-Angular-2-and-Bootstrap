@@ -15,7 +15,7 @@
             </div>
         </div>
 
-        <div class="thumbnail col-md-4" *ngFor='#host of hosts | hostFilter:listFilter'>
+        <div class="thumbnail col-md-4" *ngFor='let host of hosts | hostFilter:listFilter'>
             <img src="{{ host.image }}">
             <div class="caption">
                 <h4 class="pull-right">{{ host.price | currency }}</h4>
