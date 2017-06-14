@@ -6,12 +6,12 @@
         <div class='row'>
             <div class='col-md-2'>Filter by:</div>
             <div class='col-md-4'>
-                <input type='text' [(ngModel)]='listFilter' />
+                <input type='text' [(ngModel)]='args' />
             </div>
         </div>
         <div class='row'>
             <div class='col-md-6'>
-                <h3>Filtered by: {{listFilter}} </h3>
+                <h3>Filtered by: {{args}} </h3>
             </div>
 			<p myHighlight ngClass="centered-text underlined" class="orange">
 			  * i am highlighted
@@ -21,7 +21,7 @@
 		   </button>
         </div>
 
-        <div class="thumbnail col-md-4" *ngFor='let host of hosts | hostFilter:listFilter'>
+        <div class="thumbnail col-md-4" *ngFor='let host of hosts | hostFilter:args'>
             <img src="{{ host.image }}">
             <div class="caption">
                 <h4 class="pull-right">{{ host.price | currency }}</h4>

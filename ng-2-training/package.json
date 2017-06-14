@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack --config webpack.spec.ts --progress --color && karma start",
-    "start": "webpack-dev-server --inline --colors --progress  --display-cached --port 3000  --content-base src"
+    "start": "webpack-dev-server --port 3000  --content-base src"
   },
   "author": "",
   "license": "ISC",

@@ -16,6 +16,7 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
     </div>
   `
 })
+
  class CounterComponent {
   @Input() counterValue = 0;
   @Output() counterChange = new EventEmitter();

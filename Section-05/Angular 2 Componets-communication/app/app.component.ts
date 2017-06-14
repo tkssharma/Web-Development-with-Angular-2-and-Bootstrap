@@ -6,15 +6,16 @@ import CounterComponent from './counter.component';
   selector: 'my-app',
   template: `
     <div class="app">
-      <counter [counterValue]="myValue"></counter>
+      <counter (counterChange)="handlechange($event)" [counterValue]="myValue"></counter>
     </div>
   `,
   //inputs: ['counterValue'],
 })
  class AppComponent {
   public myValue:number = 2;
+  handlechange(event){
+   console.log(event);
+  }
 }
 
 export default AppComponent;
-
-

@@ -2,7 +2,7 @@ import {Component, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  encapsulation : ViewEncapsulation.None,
+  encapsulation : ViewEncapsulation.Native,
   styles: [`
     .test {
       padding: 10px;
