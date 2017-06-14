@@ -6,18 +6,17 @@ import { HostFilterPipe } from './host-filter.pipe';
 @Component({
     selector: 'pm-hosts',
     templateUrl: 'app/hosts/host-list.component.html',
-    styleUrls: ['app/hosts/host-list.component.css'],
-    pipes: [HostFilterPipe]
+    styleUrls: ['app/hosts/host-list.component.css']
 })
 export class HostListComponent implements OnInit {
     pageTitle: string = 'Host List';
     imageWidth: number = 50;
     imageMargin: number = 2;
-    dishAdded ; boolean = false;;
+    dishAdded : boolean = false;;
     listFilter: string = 'cart';
     toggleDish() : void{
       console.log('adding dish item from Host');
-      this.dishAdded = ! this.dishAdded 
+      this.dishAdded = ! this.dishAdded
     }
 
     hosts: IHost[] = [{
@@ -78,7 +77,7 @@ export class HostListComponent implements OnInit {
 ];
 
     toggleImage(): void {
-        this.showImage = !this.showImage;
+        //this.showImage = !this.showImage;
     }
 
     ngOnInit(): void {

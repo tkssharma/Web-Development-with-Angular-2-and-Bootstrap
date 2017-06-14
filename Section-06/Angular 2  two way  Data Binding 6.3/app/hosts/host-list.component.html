@@ -22,10 +22,7 @@
                 <h4 class="">{{ host.releaseDate }}</h4>
                 <h4><a href="#">{{ host.productName }}</a></h4>
                 <p>{{ host.description }} {{ host.starRating }}</p>
-                <button *ngIf="dishAdded" (click)='toggleDish()' class="btn btn-primary"> Add Dish </button>
-                <button *ngIf=" ! dishAdded" (click)='toggleDish()' class="btn btn-primary"> Remove Dish</button>
-
-                
+                <button (click)='toggleDish()' class="btn btn-primary">{{ toggledish ? 'Remove Dish' : 'Add Dish' }}</button>
             </div>
         </div>
 

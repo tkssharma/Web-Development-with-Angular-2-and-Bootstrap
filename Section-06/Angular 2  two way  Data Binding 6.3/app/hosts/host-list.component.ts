@@ -12,18 +12,16 @@ export class HostListComponent implements OnInit {
     pageTitle: string = 'Host List';
     imageWidth: number = 50;
     imageMargin: number = 2;
-    dishAdded : boolean = false;
-
+    dishAdded : boolean = false;;
     listFilter: string = 'cart';
-    
     toggleDish() : void{
       console.log('adding dish item from Host');
-      this.dishAdded = ! this.dishAdded 
+      this.dishAdded = ! this.dishAdded
     }
 
     hosts: IHost[] = [{
         "productId": 1,
-        "productName": "Danny",
+        "productName": "Leaf Rake",
         "productCode": "GDN-0011",
         "releaseDate": "March 19, 2016",
         "description": "Leaf rake with 48-inch wooden handle.",
@@ -34,7 +32,7 @@ export class HostListComponent implements OnInit {
     },
     {
         "productId": 2,
-        "productName": "Anna",
+        "productName": "Garden Cart",
         "productCode": "GDN-0023",
         "releaseDate": "March 18, 2016",
         "image": "/app/images/kk2.jpg",
@@ -45,7 +43,7 @@ export class HostListComponent implements OnInit {
     },
     {
         "productId": 5,
-        "productName": "Donna",
+        "productName": "Hammer",
         "productCode": "TBX-0048",
         "releaseDate": "May 21, 2016",
         "image": "/app/images/kk3.jpg",
@@ -56,7 +54,7 @@ export class HostListComponent implements OnInit {
     },
     {
         "productId": 8,
-        "productName": "kiddy",
+        "productName": "Saw",
         "productCode": "TBX-0022",
         "releaseDate": "May 15, 2016",
         "image": "/app/images/kk1.jpg",
@@ -67,7 +65,7 @@ export class HostListComponent implements OnInit {
     },
     {
         "productId": 10,
-        "productName": "abhi ",
+        "productName": "Video Game Controller",
         "productCode": "GMG-0042",
         "releaseDate": "October 15, 2015",
         "image": "/app/images/kk2.jpg",
@@ -78,7 +76,9 @@ export class HostListComponent implements OnInit {
     }
 ];
 
-    
+    toggleImage(): void {
+        //this.showImage = !this.showImage;
+    }
 
     ngOnInit(): void {
         console.log('In OnInit');
