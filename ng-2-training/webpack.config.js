@@ -1,5 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
+// import webpack from 'webpack';
+// import path from 'path'
 
 var config = {
   cache: true,
@@ -18,7 +20,7 @@ var config = {
   },
   module: {
     loaders: [
-      { test: /\.ts$/,   loader: 'awesome-typescript-loader' },
+      { test: /\.ts$/, execlue :'node_modules/',loader: 'awesome-typescript-loader' },
       { test: /\.json$/, loader: 'json-loader' },
       { test: /\.html/,  loader: 'raw-loader' },
       { test: /\.css$/,  loader: 'to-string-loader!css-loader' },

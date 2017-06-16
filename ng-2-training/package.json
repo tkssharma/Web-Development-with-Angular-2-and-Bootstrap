@@ -39,6 +39,7 @@
     "ts-helpers": "^1.1.1",
     "typescript": "^2.1.4",
     "webpack": "^1.14.0",
+    "webpack-bundle-analyzer": "^2.8.2",
     "webpack-dev-server": "^1.16.2"
   }
 }
