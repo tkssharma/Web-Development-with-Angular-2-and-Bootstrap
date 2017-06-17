@@ -39,18 +39,6 @@ var config = {
   devServer: {
     historyApiFallback: true,
     watchOptions: { aggregateTimeout: 300, poll: 1000 }
-  },
-
-  node: {
-    global: true,
-    process: true,
-    Buffer: false,
-    crypto: 'empty',
-    module: false,
-    clearImmediate: false,
-    setImmediate: false,
-    clearTimeout: true,
-    setTimeout: true
   }
 };
 module.exports = config;
