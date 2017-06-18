@@ -4,6 +4,7 @@
   "description": "Hello-world project for Angular 2",
   "scripts": {
     "server": "webpack-dev-server --inline --colors --progress --port 3000",
+    "build" : "webpack",
     "start": "npm run server"
   },
   "license": "MIT",

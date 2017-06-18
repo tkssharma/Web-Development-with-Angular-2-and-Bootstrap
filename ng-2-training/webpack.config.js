@@ -23,7 +23,7 @@ var config = {
       { test: /\.ts$/, execlue :'node_modules/',loader: 'awesome-typescript-loader' },
       { test: /\.json$/, loader: 'json-loader' },
       { test: /\.html/,  loader: 'raw-loader' },
-      { test: /\.css$/,  loader: 'to-string-loader!css-loader' },
+      { test: /\.css$/,  loader: 'style-loader!css-loader' },
     ]
   },
 
