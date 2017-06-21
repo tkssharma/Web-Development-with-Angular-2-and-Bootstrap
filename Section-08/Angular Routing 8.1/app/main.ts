@@ -5,17 +5,16 @@ import { AppComponent }  from './components/app.component';
 import {HomeComponent} from "./components/home";
 import {ProductDetailComponent} from "./components/product";
 import {LocationStrategy, HashLocationStrategy} from '@angular/common';
-import {routing} from './components/app.routing';
+import routing from './components/app.routing';
 import {_404Component} from "./components/404";
 
 @NgModule({
-    imports:      [ BrowserModule, routing ],
+    imports:      [ BrowserModule, RouterModule.forRoot(routing) ],
     declarations: [ AppComponent, HomeComponent, ProductDetailComponent,_404Component],
-    providers:[{provide: LocationStrategy, useClass: HashLocationStrategy}],
+    providers:[],
     //providers:[{provide: APP_BASE_HREF, useValue: '/'}],
     bootstrap:    [ AppComponent ]
 })
 class AppModule { }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
-

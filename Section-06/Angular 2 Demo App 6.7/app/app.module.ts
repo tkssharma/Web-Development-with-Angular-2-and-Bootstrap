@@ -8,11 +8,11 @@ import {HostFilterPipe} from './hosts/host-filter.pipe'
 import NavbarComponent from './navbar/navbar';
 import FooterComponent from './footer/footer';
 import { HostListComponent } from './hosts/host-list.component';
-
+import {HostService} from './shared/host-services';
 @NgModule({
     imports:      [ BrowserModule, FormsModule],
     declarations: [ HostListComponent,NavbarComponent,FooterComponent,AppComponent,HostFilterPipe],
-    providers:    [],
+    providers:    [HostService],
     bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

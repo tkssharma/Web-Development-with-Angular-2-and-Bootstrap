@@ -1,10 +1,10 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import {NgModule} from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {AppComponent} from './app/appComponent';
+import { AppComponent } from './app/appComponent';
 import { AppBar } from './app/ui/app-bar/app-bar';
-import {NoteContainer}  from './app/note-container';
+import { NoteContainer }  from './app/note-container';
 import { NoteCard } from './app/ui/note-card/note-card';
 
 import './global.css';

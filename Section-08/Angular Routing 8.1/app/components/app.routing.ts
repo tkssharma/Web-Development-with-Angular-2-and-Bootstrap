@@ -6,7 +6,7 @@ import {_404Component} from './404';
 const routes: Routes = [
     {path: '',        component: HomeComponent},
     {path: 'product', component: ProductDetailComponent},
-    {path: '404', component: _404Component}
+    {path: '**', component: _404Component}
 ];
 
-export const routing = RouterModule.forRoot(routes);
+export default routes;
