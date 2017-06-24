@@ -6,7 +6,7 @@ import { ReactiveFormsModule, FormControl, FormGroup } from '@angular/forms';
 @Component({
   selector: 'app',
   template: `
-  <div class="container jumbotron"> 
+  <div class="container jumbotron">
     <form [formGroup]="formModel" (ngSubmit)="onSubmit()">
       <div>Username: <input type="text" formControlName="username"></div>
       <div>Password:      <input type="text" formControlName="password"></div>
@@ -25,8 +25,14 @@ class AppComponent {
 
   constructor() {
     this.formModel = new FormGroup({
+
       'username': new FormControl(),
       'password': new FormControl(),
+
+      'AdditionalGroup': new FormGroup({
+        'email': new FormControl(),
+        'address': new FormControl()
+      }),
       'AdditionalGroup': new FormGroup({
         'email': new FormControl(),
         'address': new FormControl()

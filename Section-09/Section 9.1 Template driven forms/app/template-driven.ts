@@ -2,15 +2,26 @@
   import { BrowserModule } from '@angular/platform-browser';
   import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
   import { FormsModule } from '@angular/forms';
-
   @Component({
     selector: 'app',
     templateUrl: 'app/app.html'
   })
   class AppComponent {
-    onSubmit(formData) {
-      console.log(formData);
+   user:object;
+    constructor(){
+      this.user = {
+       'name' : 'tarun',
+       'password' : 'mypassword'
+     }
     }
+    onSubmit(formData,status) {
+      // es6 class method right ??
+      console.log(formData,status);
+    }
+    onchange(){
+      console.log(this.user)
+    }
+
   }
  // create root Module and import Form Module
   @NgModule({

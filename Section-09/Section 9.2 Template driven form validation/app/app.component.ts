@@ -7,7 +7,7 @@ import  {User}  from './user.interface';
 })
 export class AppComponent implements OnInit {
   public user: User;
-  
+
   ngOnInit() {
     this.user = {
       name: '',
@@ -15,6 +15,9 @@ export class AppComponent implements OnInit {
     };
   }
   save(model: User, isValid: boolean) {
+    if(! isValid){
+      return;
+    }
     console.log(model, isValid);
   }
 }

@@ -1,7 +1,5 @@
 var path = require('path');
 var webpack = require('webpack');
-// import webpack from 'webpack';
-// import path from 'path'
 
 var config = {
   cache: true,
@@ -20,10 +18,10 @@ var config = {
   },
   module: {
     loaders: [
-      { test: /\.ts$/, execlue :'node_modules/',loader: 'awesome-typescript-loader' },
+      { test: /\.ts$/,   loader: 'awesome-typescript-loader' },
       { test: /\.json$/, loader: 'json-loader' },
       { test: /\.html/,  loader: 'raw-loader' },
-      { test: /\.css$/,  loader: 'style-loader!css-loader' },
+      { test: /\.css$/,  loader: 'to-string-loader!css-loader' },
     ]
   },
 
@@ -32,13 +30,24 @@ var config = {
   ],
 
   resolve: {
-    extensions: ['', '.ts', '.js', '.json'],
-    modulesDirectories: ['node_modules']
+    extensions: ['', '.ts', '.js', '.json']
   },
 
   devServer: {
     historyApiFallback: true,
     watchOptions: { aggregateTimeout: 300, poll: 1000 }
+  },
+
+  node: {
+    global: true,
+    process: true,
+    Buffer: false,
+    crypto: 'empty',
+    module: false,
+    clearImmediate: false,
+    setImmediate: false,
+    clearTimeout: true,
+    setTimeout: true
   }
 };
 module.exports = config;
