@@ -5,6 +5,7 @@ import {Component} from '@angular/core';
   selector: 'my-app',
   template: `
     <div class="app">
+    {{myValue}}
     <h1>Hello World 2017</h1>
     </div>
   `,

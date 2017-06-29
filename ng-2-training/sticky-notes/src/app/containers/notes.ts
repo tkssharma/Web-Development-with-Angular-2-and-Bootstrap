@@ -31,9 +31,9 @@ import { Component } from '@angular/core';
 })
 export class Notes {
   notes = [
-    {title: 'Chores', value: 'Don\'t forget to clean up', color: 'lighblue'},
-    {title: 'Food', value: 'meal prep tonight please!', color: 'seagreen'},
-    {title: 'Shipping Number', value: '#234654hhd88', color: 'pink'}
+    {title: 'Chores', value: 'Don\'t forget to clean up', color: 'white'},
+    {title: 'Food', value: 'meal prep tonight please!', color: 'white'},
+    {title: 'Shipping Number', value: '#234654hhd88', color: 'white'}
   ];
 
   onNoteChecked(note, i) {

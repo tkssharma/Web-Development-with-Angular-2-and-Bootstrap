@@ -1,12 +1,11 @@
 import {Component} from '@angular/core';
 import { FriendService } from './friend-list';
 
-
 @Component({
   selector: 'my-friends',
   providers : [FriendService],
   styles: [`
-  div { 
+  div {
      background-color:#EFEFEF;
      margin-bottom:15px;
      padding:15px;
@@ -14,23 +13,22 @@ import { FriendService } from './friend-list';
      box-shadow:2px 2px 2px 0 rgba(0, 0, 0, 0.3);
     border-radius:3px;
   }
-  h2 { 
+  h2 {
     text-align: center;
   }
   `],
   template: `
   <h2>Hello from the {{componentName}}!</h2>
   <div *ngFor="let f of friends">
-   <h4> Name : {{f.name}} </h4> <h4>Age: {{f.age}}</h4> 
+   <h4> Name : {{f.name}} </h4> <h4>Age: {{f.age}}</h4>
   </div>
   `
 })
 export class FriendComponent {
-  //Assign 
+  //Assign
    friends:Array<any>;
 
-    constructor(_productService: FriendService) {
+    constructor(private _productService: FriendService) {
     this.friends = _productService.getFriends();
   }
 }
-

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     .app-bar {
       height: 65px;
       padding: 5px 30px;
-      background-color: #00BCD4;
+       background-color: #d400ba;;
     }
     .logo {
       color: white;
@@ -24,12 +24,11 @@ import { Component } from '@angular/core';
   template: `
     <header class="app-bar row middle-xs">
       <span class="logo col-xs-10">
-        Retain
+        ng-2-app
       </span>
       <nav class="col-xs-2">
         <div class="row middle-xs between-xs">
-          <span class="link">Settings</span>
-          <span class="link">signout</span>
+          <span class="link">Angular 2</span>
         </div>
       </nav>
     </header>

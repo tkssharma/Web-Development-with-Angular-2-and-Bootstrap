@@ -28,7 +28,7 @@ import {
           (focus)="toggle(true)"
           [(ngModel)]="newNote.title"
           name="newNoteTitle"
-          placeholder="Title"
+          placeholder="Create Sticky Notes"
           class="col-xs-10 title"
           *ngIf="fullForm"
         >
@@ -37,16 +37,19 @@ import {
           (focus)="toggle(true)"
           [(ngModel)]="newNote.value"
           name="newNoteValue"
-          placeholder="Take a note..."
+          placeholder="sticky Header"
+          class="col-xs-10"
+        >
+        <input *ngIf="fullForm"
+          type="text"
+          (focus)="toggle(true)"
+          [(ngModel)]="newNote.description"
+          name="newNoteDescription"
+          placeholder="sticky text"
           class="col-xs-10"
         >
         <div class="actions col-xs-12 row between-xs" *ngIf="fullForm">
           <div class="col-xs-3">
-            <color-picker
-              (selected)="onColorSelect($event)"
-              [colors]="colors"
-            >
-            </color-picker>
           </div>
           <button
             type="submit"

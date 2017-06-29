@@ -8,6 +8,7 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
         <button  (click)="decrement();" class="counter__button btn btn-primary">
           -
         </button>
+        {{counterValue}}
         <input  type="text" class="counter__input" [value]="counterValue">
         <button  (click)="increment();" class="counter__button btn btn-primary">
           +
@@ -19,19 +20,6 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
 
  class CounterComponent {
   @Input() counterValue = 0;
-  @Output() counterChange = new EventEmitter();
-  increment() {
-    this.counterValue++;
-    this.counterChange.emit({
-      value: this.counterValue
-    })
-  }
-  decrement() {
-    this.counterValue--;
-    this.counterChange.emit({
-      value: this.counterValue
-    })
-  }
 }
 
 export default CounterComponent;
