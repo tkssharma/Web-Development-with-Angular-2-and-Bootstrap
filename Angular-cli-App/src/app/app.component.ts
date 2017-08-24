@@ -1,6 +1,7 @@
   import { Component } from '@angular/core';
   import {AppServiceService} from './app-service.service';
   import {USERS} from './users';
+  import { FileUploader } from 'ng2-file-upload';
 
   @Component({
     selector: 'app-root',
@@ -9,6 +10,10 @@
   })
 
   export class AppComponent {
+
+    public uploader:FileUploader = new FileUploader({url:'http://localhost:3001/upload'});
+
+
     users: any[] = [];
     canFly = true;
     mutate = true;
