@@ -1,18 +1,18 @@
 var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
+         'vendor': './src/vendor.ts',
         'polyfills': './src/polyfills.ts',
-        'vendor': './src/vendor.ts',
         'app': './src/main.ts'
     },
 
     resolve: {
         extensions: ['', '.js', '.ts']
     },
-
+    devServer: {
+        contentBase: "./dist",
+    },
     module: {
         loaders: [
             {
@@ -30,15 +30,5 @@ module.exports = {
             { test: /\.css$/,  loader: 'to-string-loader!css-loader' },
 
         ]
-    },
-
-    plugins: [
-        new webpack.optimize.CommonsChunkPlugin({
-            name: ['app', 'vendor', 'polyfills']
-        }),
-
-        new HtmlWebpackPlugin({
-            template: 'src/index.html'
-        })
-    ]
+    }
 };
