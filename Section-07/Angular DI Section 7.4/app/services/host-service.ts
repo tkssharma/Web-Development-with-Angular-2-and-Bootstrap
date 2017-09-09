@@ -11,6 +11,7 @@ export class Host {
       public image: string) {
   }
 }
+// you there ??
 
 export class Review {
   constructor(
@@ -25,8 +26,11 @@ export class Review {
 
 @Injectable()
 export class HostService {
+
   gethosts(): Host[] {
-    return hosts.map(p => new Host(p.id, p.title, p.price, p.rating, p.description, p.categories,p.image));
+    return hosts.map(function(p){
+        return  new Host(p.id, p.title, p.price, p.rating, p.description, p.categories ,p.image);
+    });
   }
 
   getHostById(productId: number): Product {

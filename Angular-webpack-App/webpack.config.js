@@ -10,6 +10,12 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', '.ts']
     },
+    output: {
+      path: './dist',
+      filename: "[name]bundle.js",
+      publicPath: '/'
+    },
+
     devServer: {
         contentBase: "./dist",
     },
