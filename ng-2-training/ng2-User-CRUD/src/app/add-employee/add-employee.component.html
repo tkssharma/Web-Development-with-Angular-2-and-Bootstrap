@@ -1,0 +1,26 @@
+<div class="container container-fluid">
+  <form [formGroup]="employeeForm">
+    <div class="form-group">
+      <label for="addInputName">Name</label>
+      <input type="text" class="form-control" id="addInputName" formControlName="name" aria-describedby="nameHelp" placeholder="Name of Employee...">
+      <small id="nameHelp" *ngIf="!this.employeeForm.controls['name'].valid" class="form-text text-danger">Name is required</small>
+    </div>
+    <div class="form-group">
+      <label for="addInputNumber">Phone Number</label>
+      <input type=number class="form-control" id="addInputNumber" min="1000000000" max="9999999999" (keyup)="checkNumberLength()" formControlName="phone" aria-describedby="phoneHelp" placeholder="Phone Number of Employee...">
+      <small id="phoneHelp" *ngIf="!this.employeeForm.controls['phone'].valid" class="form-text text-danger">Phone Required.</small>
+    </div>
+    <div class="form-group">
+      <label for="addInputEmail">Email address</label>
+      <input type="email" class="form-control" id="addInputEmail" formControlName="email" aria-describedby="emailHelp" placeholder="Enter E-mail...">
+      <small id="emailHelp" *ngIf="!this.employeeForm.controls['email'].valid && this.employeeForm.controls['email'].errors" class="form-text text-danger">Not a Valid email</small>      
+    </div>
+    <div class="form-group">
+      <label for="addInputAddress">Address</label>
+      <input type="text" class="form-control" id="addInputAddress" formControlName="address" aria-describedby="addressHelp" placeholder="Address of Employee...">
+      <small id="addressHelp" *ngIf="!this.employeeForm.controls['address'].valid" class="form-text text-danger">Address is required</small>      
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!employeeForm.valid" (click)="submitEmployee()">Submit</button>
+    <button type="submit" class="btn btn-danger" [routerLink]="['']">Cancel</button>
+  </form>
+</div>

@@ -1,16 +1,13 @@
-<header>
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" class="img_cls" alt="Angular">
-  <h4 class="header_h4"> {{title}}
-  </h4>
-</header>
 <div class="container">
-<!--   <ul class="nav nav-pills div_ul">
-    <li role="presentation" routerLinkActive="active">
-      <a routerLink="/users">Users</a></li>
-  </ul> -->
-  <router-outlet></router-outlet>
+  <div class="row">
+    <div class="col-12 col-md-12 col-sm-12">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-align-center">
+          <h3 class="display-4">User Management</h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-<footer class="text-center footer">
-  <p class="mrgn_0"><b>&copy;</b> <span class="color_blue">Himanshu teotia</span> himanshuteotia7@gmail.com
-  </p>
-</footer>
+
+<router-outlet></router-outlet>

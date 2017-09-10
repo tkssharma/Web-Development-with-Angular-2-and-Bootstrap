@@ -1,14 +1,14 @@
-import { StudentCurdPage } from './app.po';
+import { App2Page } from './app.po';
 
-describe('student-curd App', () => {
-  let page: StudentCurdPage;
+describe('app2 App', function() {
+  let page: App2Page;
 
   beforeEach(() => {
-    page = new StudentCurdPage();
+    page = new App2Page();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
