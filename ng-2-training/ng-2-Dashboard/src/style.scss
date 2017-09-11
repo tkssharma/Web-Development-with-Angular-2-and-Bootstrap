@@ -1,0 +1,318 @@
+body {
+  font-size: 18px;
+  background-color: rgba(204, 204, 204, 0.41);
+  font-family: "Roboto", sans-serif !important;
+  margin: 0px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  color: inherit;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 .applied-filters {
+  font-size: 14px;
+  color: rgba(39, 31, 31, 0.45);
+}
+
+.filter-action {
+  color: #15c187;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 30px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 120px;
+  padding: 10px;
+  color: black;
+  .search {
+    margin-right: 100px;
+    margin-top: 30px;
+    .search-field {
+      position: relative;
+      color: #555;
+      display: block;
+    }
+  }
+}
+
+.select-filters {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-label {
+  color: #15c187;
+}
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.react-autosuggest__container {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.react-autosuggest__input {
+  width: 240px;
+  height: 20px;
+  padding: 10px 10px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 40px;
+  width: 260px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.field-control {
+  display: block;
+  width: 100%;
+  height: 40px;
+  width: 180px;
+  padding: 6px 20px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #c7bcb8;
+  border-radius: 0px !important;
+}
+
+.displayData {
+  text-align: center;
+}
+
+.result-container {
+  padding: 10px;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  /* Modal Content/Box */
+  /* The Close Button */
+  /* Modal Header */
+  /* Modal Body */
+  .result-container h5 {
+    text-align: center;
+    color: #9e9a9a;
+  }
+  .profile-pic {
+    flex-grow: 0;
+    order: 1;
+    width: 100px;
+    border-radius: 50px;
+    height: auto;
+  }
+  .img-responsive {
+    height: auto;
+    width: 100px;
+    border-radius: 50px;
+  }
+  .details {
+    padding: 10px;
+    order: 2;
+    flex-grow: 2;
+  }
+  .modal_show {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+  .modal_hide {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: black;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+  }
+  .modal-content {
+    background-color: #ffffff;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  .modal-body {
+    padding: 2px 16px;
+  }
+  .close {
+    &:hover, &:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.app-results {
+  margin-top: 20px;
+  max-height: 650px;
+  overflow-x: scroll;
+  background-color: #fff;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+.footer {
+  height: 70px;
+  background-color: #ccc;
+  h4 {
+    vertical-align: middle;
+    text-align: center;
+  }
+}
+
+.search-result-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  .search-result-list-item {
+    border-bottom: solid 5px rgba(204, 204, 204, 0.19);
+    .profile {
+      display: flex;
+      padding: 20px;
+      border-bottom: 2px solid #ccc;
+      order: 1;
+      flex-direction: row;
+      &:hover, &:active {
+        background-color: #ccc;
+      }
+      .profile-pic {
+        flex-grow: 0;
+        order: 1;
+        width: 100px;
+        border-radius: 50px;
+        height: auto;
+      }
+      .img-responsive {
+        height: auto;
+        width: 100px;
+        border-radius: 50px;
+      }
+      .details {
+        padding: 10px;
+        order: 2;
+        margin-left: 30px;
+        flex-grow: 2;
+      }
+    }
+  }
+}
+
+.details-name {
+  color: #2ac694;
+}
+
+.details-txt {
+  font-size: 18px;
+  color: rgba(6, 6, 6, 0.38);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

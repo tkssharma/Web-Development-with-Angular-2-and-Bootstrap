@@ -33,6 +33,21 @@ module.exports = {
                 test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
                 loader: 'file?name=assets/[name].[hash].[ext]'
             },
+            {
+                     test: /\.css$/,
+                     exclude: /node_modules/,
+                     loader: "style-loader!css-loader"
+                 }, {
+                     test: /\.scss$/,
+                     exclude: /node_modules/,
+                     loader: "style-loader!css-loader!sass-loader"
+                 }, {
+                     test: /\.less?$/,
+                     loaders: [
+                         'style-loader', 'css-loader', 'less-loader?{"sourceMap":true}'
+                     ],
+                     include: __dirname
+            },
             { test: /\.css$/,  loader: 'to-string-loader!css-loader' },
 
         ]
