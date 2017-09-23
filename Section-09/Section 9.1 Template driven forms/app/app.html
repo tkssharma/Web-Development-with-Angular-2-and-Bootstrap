@@ -1,42 +1,41 @@
-    <div class="container jumbotron">
-        <form novalidate #f="ngForm" (ngSubmit)="onSubmit(f.value,f.valid)">
-            <div class="form-group">
-                <div>Username:
-                    <input (change)="onchange()" required  type="text" name="username" [(ngModel)]="user.name"></div>
-                </div>
-                <div class="form-group">
-                    <div>Password:
-                        <input type="text"  (change)="onchange()" name="password" [(ngModel)]="user.password"></div>
-                    </div>
-                <button  type="submit">Submit</button>
-        </form>
+<div class="container">
+  <form #form="ngForm" novalidate (ngSubmit)="submit(form.value, form.valid)">
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control" name="name" [(ngModel)]="user.name"
+             #name="ngModel" required minlength="5">
+      <input type="text" class="form-control" name="password" [(ngModel)]="user.password" #password="ngModel" required minlength="5">
+      <input type="email" class="form-control" name="email" [(ngModel)]="user.password" #email="ngModel">
     </div>
 
 
-    <div class="container jumbotron">
-  <h1>Add user</h1>
-  <form #f="ngForm" novalidate (ngSubmit)="save(f.value, f.valid)">
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
 
+</div>
+
+
+
+<div class="container jumbotron">
+  <h1>Add user</h1>
+  <form #form="ngForm" novalidate (ngSubmit)="save(form.value, form.valid)">
+     {{form.submitted}}
     <div class="form-group">
       <label>Name</label>
-      <input type="text" class="form-control"
-        name="name" [(ngModel)]="user.name"
-        #name="ngModel" required minlength="5">
-      <small [hidden]="name.valid || (name.pristine && !f.submitted)" class="text-danger">
+      <input type="text" class="form-control" name="name" [(ngModel)]="user.name"
+             #name="ngModel" required minlength="5">
+
+      <small [hidden]="name.valid || (name.pristine && !form.submitted)" class="text-danger">
             Name is required (minimum 5 characters).
       </small>
 
-      <input type="text" class="form-control"
-        name="password" [(ngModel)]="user.password"
-        #password="ngModel" required minlength="5">
-      <small [hidden]="password.valid || (password.pristine && !f.submitted)" class="text-danger">
+      <input type="text" class="form-control" name="password" [(ngModel)]="user.password" #password="ngModel" required minlength="5">
+      <small [hidden]="password.valid || (password.pristine && !form.submitted)" class="text-danger">
             password is required (minimum 5 characters).
       </small>
 
-      <input type="email" class="form-control"
-        name="email" [(ngModel)]="user.password"
-        #email="ngModel" >
-      <small [hidden]="email.valid || (password.pristine && !f.submitted)" class="text-danger">
+      <input type="email" class="form-control" name="email" [(ngModel)]="user.password" #email="ngModel">
+      <small [hidden]="email.valid || (password.pristine && !form.submitted)" class="text-danger">
             password is required (minimum 5 characters).
       </small>
     </div>

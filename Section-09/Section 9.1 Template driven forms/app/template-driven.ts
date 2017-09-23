@@ -13,6 +13,7 @@
        'name' : 'tarun',
        'password' : 'mypassword'
      }
+     // correct !!
     }
     onSubmit(formData,status) {
       // es6 class method right ??
@@ -20,6 +21,10 @@
     }
     onchange(){
       console.log(this.user)
+    }
+    save(formData,status) {
+      // es6 class method right ??
+      console.log(formData,status);
     }
 
   }
