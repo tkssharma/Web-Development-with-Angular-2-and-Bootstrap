@@ -7,21 +7,21 @@
       <input type="text" class="form-control"
         name="name" [(ngModel)]="user.name"
         #name="ngModel" required minlength="5">
-      <small [hidden]="name.valid || (name.pristine && !f.submitted)" class="text-danger">
+      <small [hidden]="name.valid || (name.pristine)" class="text-danger">
             Name is required (minimum 5 characters).
       </small>
 
       <input type="text" class="form-control"
         name="password" [(ngModel)]="user.password"
         #password="ngModel" required minlength="5">
-      <small [hidden]="password.valid || (password.pristine && !f.submitted)" class="text-danger">
+      <small [hidden]="password.valid || (password.pristine )" class="text-danger">
             password is required (minimum 5 characters).
       </small>
 
       <input type="email" class="form-control"
         name="email" [(ngModel)]="user.password"
         #email="ngModel" >
-      <small [hidden]="email.valid || (password.pristine && !f.submitted)" class="text-danger">
+      <small [hidden]="email.valid || (password.pristine )" class="text-danger">
             password is required (minimum 5 characters).
       </small>
     </div>

@@ -18,10 +18,36 @@ body {
   display: flex;
   flex-direction: column;
 }
+.icon-add {
+  height: 30px;
+  width: 30px;
+  background-image: url(assets/icons/plus.svg);
+  background-size: 30px 30px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-repeat: no-repeat;
+  background-size: 25px 30px;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search {
+  position: absolute;
+  top: 15px;
+  left: 7px;
+  font-size: 20px;
+}
 
 h3 .applied-filters {
   font-size: 14px;
   color: rgba(39, 31, 31, 0.45);
+}
+
+.filter{
+  display: flex;
+  justify-content: space-between;
 }
 
 .filter-action {
@@ -32,15 +58,12 @@ h3 .applied-filters {
 }
 
 .app-header {
-  display: flex;
-  justify-content: space-between;
   background-color: #ffffff;
   height: 120px;
   padding: 10px;
   color: black;
   .search {
     margin-right: 100px;
-    margin-top: 30px;
     .search-field {
       position: relative;
       color: #555;
@@ -123,15 +146,14 @@ body {
 .field-control {
   display: block;
   width: 100%;
-  height: 40px;
-  width: 180px;
-  padding: 6px 20px;
+  height: 34px;
+  width: 204px;
+  padding: 5px;
   font-size: 14px;
-  line-height: 1.42857143;
+  font-size: 18px;
   color: #555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #c7bcb8;
   border-radius: 0px !important;
 }
 

@@ -18,6 +18,7 @@ module.exports = {
 
     devServer: {
         contentBase: "./dist",
+        port : 8089
     },
     module: {
         loaders: [
