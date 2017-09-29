@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
 })
 
 export default class HeaderComponent {
-
+    filter: Object;
+    constructor(){
+        this.filter ={};
+    }
+    handleChange(){
+     console.log(this.filter);
+    }
 }
