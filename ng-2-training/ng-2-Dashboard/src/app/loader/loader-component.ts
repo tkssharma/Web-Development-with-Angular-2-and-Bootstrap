@@ -1,4 +1,4 @@
-import {Component, OnInit, OnDestroy} from '@angular/core';
+import {Component, OnInit, OnDestroy,Input} from '@angular/core';
 import {Subscription} from 'rxjs/Subscription';
 import {LoaderService} from './loader-service';
 import {LoaderState} from './loader';
@@ -8,7 +8,7 @@ import {LoaderState} from './loader';
     templateUrl: './loader-component.html'
     })
 export default class LoaderComponent implements OnInit {
-    show = false;
+    @Input() loaded : boolean = false;
     private subscription : Subscription;
     constructor(private loaderService : LoaderService) {}
     ngOnInit() {
@@ -17,7 +17,7 @@ export default class LoaderComponent implements OnInit {
             .loaderService
             .loaderState
             .subscribe((state : LoaderState) => {
-                this.show = state.show;
+                this.loaded = state.loaded;
             });
     }
     ngOnDestroy() {

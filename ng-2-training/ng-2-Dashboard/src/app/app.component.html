@@ -1,5 +1,5 @@
-<app-header></app-header>
-<ng-loader></ng-loader>
-<main-result></main-result>
+<app-header (filterChange)="filterValueChange($event);"></app-header>
+<ng-loader [loaded]="loaded"></ng-loader>
+<main-result [Users]="Users"></main-result>
 <app-footer></app-footer>
 

@@ -13,15 +13,18 @@ const jsonPath2 = path.join(__dirname, './mock/app2.json')
 
 app.get('/api', function (req, res) {
 
- if (req.query.name && req.query.location && req.query.company) {
-  res.sendFile(jsonPath2)
- } else if (req.query.location) {
-  res.sendFile(jsonPath1)
- } else if (req.query.name) {
-  res.sendFile(jsonPath1)
- } else {
-  res.sendFile(jsonPath)
- }
+ setTimeout(function(){
+  if (req.query.name && req.query.location && req.query.company) {
+   res.sendFile(jsonPath2)
+  } else if (req.query.location) {
+   res.sendFile(jsonPath1)
+  } else if (req.query.name) {
+   res.sendFile(jsonPath1)
+  } else {
+   res.sendFile(jsonPath)
+  }
+ },2000)
+
 });
 
 var server = app.listen(3000, function () {

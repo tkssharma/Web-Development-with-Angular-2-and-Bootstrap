@@ -2,14 +2,14 @@
 	<div class="app-results">
 		<ul class="search-result-list">
 			<li class="search-result-list-item">
-				<div class="profile">
-					<div class="profile-pic"><img src="https://pbs.twimg.com/profile_images/812036256989401088/4DHoBOtG_400x400.jpg" class="img-responsive"></div>
+				<div class="profile" *ngFor="let data of Users">
+					<div class="profile-pic"><img src={{data.profile_picture}} class="img-responsive"></div>
 					<div class="details">
 						<h3 class="details-name">
-							donAmbrove
+							{{data.first_name}}
 						</h3>
 						<h3 class="details-txt">
-							total experience
+							{{data.last_name}}
 						</h3>
 						<h4 class="details-txt">
 							Company :Fractal Analytics
@@ -22,47 +22,7 @@
 						</h4>
 					</div>
 				</div>
-				<div class="profile">
-					<div class="profile-pic"><img src="https://pbs.twimg.com/profile_images/812036256989401088/4DHoBOtG_400x400.jpg" class="img-responsive"></div>
-					<div class="details">
-						<h3 class="details-name">
-							donAmbrove
-						</h3>
-						<h3 class="details-txt">
-							total experience
-						</h3>
-						<h4 class="details-txt">
-							Company :Fractal Analytics
-						</h4>
-						<h4 class="details-txt">
-							Location :Bengaluru
-						</h4>
-						<h4 class="details-txt">
-							Role :Big Data and Analytics Engineer
-						</h4>
-					</div>
-				</div>
-				<div class="profile">
-					<div class="profile-pic"><img src="https://pbs.twimg.com/profile_images/812036256989401088/4DHoBOtG_400x400.jpg" class="img-responsive"></div>
-					<div class="details">
-						<h3 class="details-name">
-							donAmbrove
-						</h3>
-						<h3 class="details-txt">
-							total experience
-						</h3>
-						<h4 class="details-txt">
-							Company :Fractal Analytics
-						</h4>
-						<h4 class="details-txt">
-							Location :Bengaluru
-						</h4>
-						<h4 class="details-txt">
-							Role :Big Data and Analytics Engineer
-						</h4>
-					</div>
 
-				</div>
 			</li>
 		</ul>
 	</div>
