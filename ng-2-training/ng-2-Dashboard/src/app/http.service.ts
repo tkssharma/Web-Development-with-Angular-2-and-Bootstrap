@@ -1,12 +1,11 @@
 import {Injectable} from '@angular/core';
-import { Router } from '@angular/router';
 import {Http, Headers, Response, Request, BaseRequestOptions, RequestMethod, ResponseContentType} from '@angular/http';
 import {Observable} from 'rxjs/Rx';
-import { LocalStorageService } from './localStorage.service';
+import { LocalStorageService } from './local.Storage.service';
 
 @Injectable()
 export class HttpClient {
-  constructor(private http: Http, private router: Router,
+  constructor(private http: Http,
   private localStorageService: LocalStorageService) {}
 
   post(url: string, body: any = {}) {
@@ -55,7 +54,6 @@ export class HttpClient {
     const errors = error.json();
     if(error.status == 406 && Array.isArray(errors) && errors.indexOf("User is not logged in.") !== -1) {
       this.localStorageService.clearAll();
-      this.router.navigate(['']);
     } else if (error.status == 401 && Array.isArray(errors) && errors.indexOf("CSRF validation failed") !== -1) {
       // TODO: should logout after getting token
     }

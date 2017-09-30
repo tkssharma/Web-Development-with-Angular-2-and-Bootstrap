@@ -1,0 +1,1394 @@
+[
+	{
+	"first_name":"don",
+	"last_name":"Ambrove",
+	"profile_picture":"https://pbs.twimg.com/profile_images/812036256989401088/4DHoBOtG_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Fractal Analytics",
+	"current_location":"Bengaluru",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Tarun",
+	"last_name":"Sharma",
+	"profile_picture":"https://pbs.twimg.com/profile_images/2614358219/0ixx2n6n059uf5gdwaxl_400x400.jpeg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Fractal Analytics",
+	"current_location":"Bengaluru",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Ritesh",
+	"last_name":"Sharma",
+	"profile_picture":"https://pbs.twimg.com/profile_images/725034709533728770/ZVaJZ_tu_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Fractal Analytics",
+	"current_location":"Bengaluru",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Rohan",
+	"last_name":"aggarwal",
+	"profile_picture":"https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Fractal Analytics",
+	"current_location":"Bengaluru",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Jaideep",
+	"last_name":"singh",
+	"profile_picture":"https://pbs.twimg.com/profile_images/843309367436836865/rDa1m7Wl_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Fractal Analytics",
+	"current_location":"Bengaluru",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Robin",
+	"last_name":"chauhan",
+	"profile_picture":"https://pbs.twimg.com/profile_images/755822196061302784/_Mfh6m1B_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Fractal Analytics",
+	"current_location":"Bengaluru",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Rahul",
+	"last_name":"sharma",
+	"profile_picture":"https://pbs.twimg.com/profile_images/796861611030024192/pVl1eq7f_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Google Developer Expert ",
+	"current_location":"USA",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+	"first_name":"Wassim",
+	"last_name":"Chegham",
+	"profile_picture":"https://pbs.twimg.com/profile_images/895370358370557954/JKnsdgkH_400x400.jpg",
+	"total_experience":60.0,
+	"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+	"current_company":"Universal core team • creator of @itsjustangular",
+	"current_location":"USA",
+	"current_role":"Big Data and Analytics Engineer",
+	"education":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+			"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+			"duration_string":"5 years",
+			"end":"2011-12-31T00:00:00",
+			"institute":"Jawaharlal Nehru Technological University",
+			"major":null,
+			"start":"2007-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+			"description":"College First in 12th",
+			"duration_string":"3 years",
+			"end":"2007-12-31T00:00:00",
+			"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+			"major":null,
+			"start":"2005-01-01T00:00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+			"description":null,
+			"duration_string":"2 years",
+			"end":"2005-12-31T00:00:00",
+			"institute":"St. Francis De Sales High School",
+			"major":null,
+			"start":"2004-01-01T00:00:00"
+		}
+	],
+	"experience":[
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Fractal Analytics",
+			"company_link":null,
+			"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+			"duration_string":"",
+			"end":null,
+			"is_current":true,
+			"role":"Big Data and Analytics Engineer",
+			"start":"2016-02-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Amadeus IT Group",
+			"company_link":null,
+			"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+			"duration_string":"8 months",
+			"end":"2016-02-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research and Development Engineer-BigData",
+			"start":"2015-06-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Impetus",
+			"company_link":null,
+			"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+			"duration_string":"1 year, 9 months",
+			"end":"2015-06-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"Research Engineer",
+			"start":"2013-09-01T00:00:00+00:00"
+		},
+		{
+			"added_at":"2016-08-18T04:57:29+00:00",
+			"company":"Tata Consultancy Services",
+			"company_link":null,
+			"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+			"duration_string":"2 years",
+			"end":"2013-08-01T00:00:00+00:00",
+			"is_current":false,
+			"role":"System Engineer",
+			"start":"2011-08-01T00:00:00+00:00"
+		}
+	]
+},{
+"first_name":"don",
+"last_name":"Ambrove",
+"profile_picture":"https://pbs.twimg.com/profile_images/812036256989401088/4DHoBOtG_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Fractal Analytics",
+"current_location":"Bengaluru",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Tarun",
+"last_name":"Sharma",
+"profile_picture":"https://pbs.twimg.com/profile_images/2614358219/0ixx2n6n059uf5gdwaxl_400x400.jpeg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Fractal Analytics",
+"current_location":"Bengaluru",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Ritesh",
+"last_name":"Sharma",
+"profile_picture":"https://pbs.twimg.com/profile_images/725034709533728770/ZVaJZ_tu_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Fractal Analytics",
+"current_location":"Bengaluru",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Rohan",
+"last_name":"aggarwal",
+"profile_picture":"https://pbs.twimg.com/profile_images/759557613445001216/6M2E1l4q_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Fractal Analytics",
+"current_location":"Bengaluru",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Jaideep",
+"last_name":"singh",
+"profile_picture":"https://pbs.twimg.com/profile_images/843309367436836865/rDa1m7Wl_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Fractal Analytics",
+"current_location":"Bengaluru",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Robin",
+"last_name":"chauhan",
+"profile_picture":"https://pbs.twimg.com/profile_images/755822196061302784/_Mfh6m1B_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Fractal Analytics",
+"current_location":"Bengaluru",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Rahul",
+"last_name":"sharma",
+"profile_picture":"https://pbs.twimg.com/profile_images/796861611030024192/pVl1eq7f_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Google Developer Expert ",
+"current_location":"USA",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+},{
+"first_name":"Wassim",
+"last_name":"Chegham",
+"profile_picture":"https://pbs.twimg.com/profile_images/895370358370557954/JKnsdgkH_400x400.jpg",
+"total_experience":60.0,
+"uid":"00018b75-6d55-4754-be8d-f065f1bbf6d7",
+"current_company":"Universal core team • creator of @itsjustangular",
+"current_location":"USA",
+"current_role":"Big Data and Analytics Engineer",
+"education":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Bachelor of Technology (B.Tech.), Computer Science, 83%",
+		"description":"College First and Stood University 3rd in Computer ScienceActivities and Societies: Head of Student Association Committee",
+		"duration_string":"5 years",
+		"end":"2011-12-31T00:00:00",
+		"institute":"Jawaharlal Nehru Technological University",
+		"major":null,
+		"start":"2007-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"Intermediate, Maths, Physics, Chemistry, 97.5%",
+		"description":"College First in 12th",
+		"duration_string":"3 years",
+		"end":"2007-12-31T00:00:00",
+		"institute":"Gowtham Junior College of Intermediate, Vijayawada",
+		"major":null,
+		"start":"2005-01-01T00:00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"degree":"SSC, Maths, Science, Social, Hindi, English, Telugu, 3.5/4.0",
+		"description":null,
+		"duration_string":"2 years",
+		"end":"2005-12-31T00:00:00",
+		"institute":"St. Francis De Sales High School",
+		"major":null,
+		"start":"2004-01-01T00:00:00"
+	}
+],
+"experience":[
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Fractal Analytics",
+		"company_link":null,
+		"description":"Big Data capability development at Fractal responsible for solution development for analytical problems across multiple business domains at large scale",
+		"duration_string":"",
+		"end":null,
+		"is_current":true,
+		"role":"Big Data and Analytics Engineer",
+		"start":"2016-02-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Amadeus IT Group",
+		"company_link":null,
+		"description":"1. Worked as Product Engineer in developing operational data store for Airlines.2. Worked with kafka, Spark Streaming, Data Frames & Cassandra.3. Involved in architectural decisions of ETL and DB.4. End to End development and evaluating the performance of the product.5. Ensure data integrity and fault-tolerance.6. Resolved technical issues pertaining to Concurrent writes, handling write failures, shuffle issues, memory issues etc.7. Deep expertise in tuning internals of Spark.8. Research on technical aspects that would be applicable for the product.",
+		"duration_string":"8 months",
+		"end":"2016-02-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research and Development Engineer-BigData",
+		"start":"2015-06-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Impetus",
+		"company_link":null,
+		"description":"1. Worked as Research Engineer in Big Data Labs2. Worked with Real time analytics projects.3. Worked on Hadoop ecosystem and related POCs4. Contributor to Apache Storm. Implemented ML algorithms over Storm.5. Implemented large scale deep networks over Spark.6. Implemented realization of deep learning for NLP tasks over Spark.Experimented on Text Mining, Data Mining, Information Retrieval, Neural Networks and NLP.",
+		"duration_string":"1 year, 9 months",
+		"end":"2015-06-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"Research Engineer",
+		"start":"2013-09-01T00:00:00+00:00"
+	},
+	{
+		"added_at":"2016-08-18T04:57:29+00:00",
+		"company":"Tata Consultancy Services",
+		"company_link":null,
+		"description":"1. Worked on ETL tools \u2013 MS SQL Server Integration services (SSIS) and reporting tools SQL Server Reporting Services (SSRS)2. Worked on evaluating the performance of SQL Server 2008 R2 on Windows Server 2012.3. Worked as SQL developer. Developed many optimized SQL queries.4. Experience in resolving memory issues and Performance tuning of SQL queries",
+		"duration_string":"2 years",
+		"end":"2013-08-01T00:00:00+00:00",
+		"is_current":false,
+		"role":"System Engineer",
+		"start":"2011-08-01T00:00:00+00:00"
+	}
+]
+}]
