@@ -1,0 +1,34 @@
+<div class="app-header">
+	<h3>Candidate Search Filter</h3>
+	<div class="filter">
+		<div class="filter-left">
+			<span>Add Filters</span>
+			<!-- <div class="icon-add"></div>  -->
+			<div class="select-filters">
+			<select class="field-control" id="location" (change)="handleChange()"  [(ngModel)]="filter.location">
+				<option></option>
+				<option>Bangalore</option>
+				<option>Gurgaon</option>
+				<option>Delhi</option>
+				<option>Goa</option>
+				<option>Mumbai</option>
+		</select>
+				<select (change)="handleChange()"  [(ngModel)]="filter.company"
+				 class="field-control" id="company">
+					<option></option>
+					<option>IBM</option>
+					<option>MS</option>
+					<option>Mckinsey</option>
+					<option>Amdocs</option>
+					<option>UHG</option>
+					</select>
+			</div>
+		</div>
+		<div class="filter-right">
+			<div class="search">
+				<span class="fa fa-search"></span>
+				<input (keyup)="handleChange()" [(ngModel)]="filter.name" type="text" placeholder="Filter By Name" id="name" class="field-control">
+			</div>
+		</div>
+	</div>
+</div>
