@@ -6,17 +6,5 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
 })
 
 export default class HeaderComponent {
-    filter: Object;
-    @Output() filterChange = new EventEmitter();
-
-    constructor(){
-        this.filter ={};
-    }
-    handleChange(){
-     console.log(this.filter);
-     this.filterChange.emit({
-        value: this.filter
-      })
-    }
 
 }

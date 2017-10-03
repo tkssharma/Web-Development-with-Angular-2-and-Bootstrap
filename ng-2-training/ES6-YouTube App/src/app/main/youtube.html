@@ -1,10 +1,5 @@
-<div class="result-container">
-   <ng-loader [loaded]="loaded"></ng-loader>
-   <search-bar (searchTextChange)="SearchValueChange($event);"></search-bar>
-   <div class="video-detail col-md-8">
-     <video-detail [selectVideo]="selectVideo"></video-detail>
-   </div>
-   <ul class="col-md-4 list-group">
-     <video-list [Videos]="Videos"></video-list>
-   </ul>
-</div>
+
+  <ng-loader [loaded]="loaded"></ng-loader>
+  <search-bar (searchTextChange)="SearchValueChange($event);"></search-bar>
+  <video-detail [selectVideo]="selectVideo"></video-detail>
+  <video-list [Videos]="Videos"></video-list>

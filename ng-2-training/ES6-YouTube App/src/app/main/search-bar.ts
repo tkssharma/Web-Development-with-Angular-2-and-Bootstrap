@@ -1,6 +1,6 @@
 import { Component, Input, OnInit, Output,EventEmitter } from '@angular/core';
 
-@Component({selector: 'search-bar', template: '<input [(ng-model)]="searchText"  (change)="handleChange()" />'})
+@Component({selector: 'search-bar', template: '<div class="search-bar" ><input [(ngModel)]="searchText" (change)="handleChange()" /></div>'})
 
 export default class SearchBar implements OnInit {
  @Output() searchTextChange = new EventEmitter();

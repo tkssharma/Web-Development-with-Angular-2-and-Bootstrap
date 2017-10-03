@@ -5,18 +5,23 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import HeaderComponent from './header/app-header';
 import FooterComponent from './footer/app-footer';
-import MainComponent from './main/main-result';
+import YouTube from './main/youtube';
 import {LoaderService} from './loader/loader-service';
 import {HttpClient} from './http.service';
+import SearchBar from './main/search-bar';
+import videoList from './main/video-list/video-list';
+import videolistItem from './main/video-list/video-list-item';
+import videodetails from './main/video-detail/video-detail';
 //import {LocalStorageService} from './local.storage.service';
 import {HttpModule} from '@angular/http';
 
 @NgModule({
     imports: [
-        BrowserModule,FormsModule,HttpModule
+        BrowserModule,FormsModule,HttpModule,FormsModule
     ],
     declarations: [
-        AppComponent,HeaderComponent,FooterComponent,MainComponent,LoaderComponent
+        AppComponent,HeaderComponent,videoList,FooterComponent,
+        YouTube,LoaderComponent,SearchBar,videolistItem,videodetails
     ],
     providers : [LoaderService,HttpClient],
     bootstrap: [ AppComponent ]

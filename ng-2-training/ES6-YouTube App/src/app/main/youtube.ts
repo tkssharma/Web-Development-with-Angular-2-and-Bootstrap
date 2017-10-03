@@ -1,8 +1,10 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {video} from './video';
-import * as youtubeSearch from "youtube-search";
+//import * as youtubeSearch from "youtube-search";
+var youtube = require('youtube-finder')
+var client = youtube.createClient({ key: 'AIzaSyAuQCVeNfKhtRk9KlChQPT1nO27DPO_5Ss'})
 
-@Component({selector: 'youtube', template: './youtube.html'})
+@Component({selector: 'youtube', templateUrl: './youtube.html'})
 
 export default class Youtube implements OnInit {
     Videos : video[];
@@ -11,28 +13,27 @@ export default class Youtube implements OnInit {
     selectVideo : video;
     opts : any;
     constructor() {
-        this.opts = {
-            maxResults: 10,
-            key: "AIzaSyAuQCVeNfKhtRk9KlChQPT1nO27DPO_5Ss"
-        };
+
     }
     ngOnInit() {
         this.loaded = false;
-        youtubeSearch("angular2", this.opts, (err : any, results : any) => {
-            if (err)
-                return console.log(err);
-            console.dir(results);
-            this.Videos = results;
+        var params = {
+            part: 'snippet',
+            q: 'Still into You paramore',
+            maxResults: 5
+          }
+          client.search(params, function (err:any, data:any) {
+            // your magic..
+            console.dir(data);
+            this.Videos = data;
             this.loaded = true;
-        });
+          })
     }
     SearchValueChange(event:any){
-        youtubeSearch(event.value, this.opts, (err : any, results : any) => {
+         /* youtubeSearch(event.value, this.opts, (err : any, results : any) => {
             if (err)
                 return console.log(err);
-            console.dir(results);
-            this.Videos = results;
-            this.loaded = true;
-        });
+
+        }); */
     }
 }
