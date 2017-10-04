@@ -7,8 +7,10 @@ import {video} from '../video';
 })
 
  class VideoList implements OnInit {
-   @Input() Videos:video[] =[];
-   ngOnInit(){}
+   @Input() Videos:video[] ;
+   ngOnInit(){
+     console.log(this.Videos);
+   }
 }
 
 export default VideoList;

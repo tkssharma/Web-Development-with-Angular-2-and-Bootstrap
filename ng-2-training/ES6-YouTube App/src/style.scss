@@ -13,36 +13,64 @@ body {
   margin-bottom: 5px !important;
   color: inherit;
 }
+
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 100px;
+  padding: 10px;
+  color: black;
+  background-image: url(https://marketingland.com/wp-content/ml-loads/2014/08/youtube-iconsbkgd-fade-1920.jpg);
+  background-size: cover;
+}
+.container{
+  width:1200px;
+  margin: auto;
+}
+
 .search-bar {
   margin: 20px;
-  padding: 10px;
   text-align: center;
+  input {
+    display: block;
+    width: 70%;
+    MARGIN: AUTO;
+    height: 30px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c7bcb8;
+    border-radius: 0px !important;
+  }
 }
-
-.search-bar input {
-  width: 75%;
-}
-
 .video-item img {
   max-width: 64px;
-  float: right;
 }
-.clear-float{
+.clear{
   clear: both;
 }
 
-.video-detail .details {
+.left {
+  width: 60%;
+  float: left;
+}
+.video-detail {
   margin-top: 10px;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  float: left;
 }
-
+.right{
+  width: 40%;
+  float: right;
+}
 .list-group-item {
   cursor: pointer;
-}
-
-.list-group-item:hover {
-  background-color: #eee;
+  &:hover {
+    background-color: #eee;
+  }
 }

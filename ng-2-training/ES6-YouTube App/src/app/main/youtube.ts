@@ -22,18 +22,27 @@ export default class Youtube implements OnInit {
             q: 'Still into You paramore',
             maxResults: 5
           }
-          client.search(params, function (err:any, data:any) {
+          client.search(params, (err:any, data:any) => {
             // your magic..
             console.dir(data);
-            this.Videos = data;
+            this.Videos = data.items;
+            this.selectVideo = data.items[2]
             this.loaded = true;
           })
     }
     SearchValueChange(event:any){
-         /* youtubeSearch(event.value, this.opts, (err : any, results : any) => {
-            if (err)
-                return console.log(err);
-
-        }); */
+      this.loaded = false;
+      var params = {
+          part: 'snippet',
+          q: event.value,
+          maxResults: 5
+        }
+        client.search(params, (err:any, data:any) => {
+          // your magic..
+          console.dir(data);
+          this.Videos = data.items;
+          this.selectVideo = data.items[2]
+          this.loaded = true;
+      });
     }
 }

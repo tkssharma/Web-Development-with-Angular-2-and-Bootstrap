@@ -1,5 +1,12 @@
 
   <ng-loader [loaded]="loaded"></ng-loader>
   <search-bar (searchTextChange)="SearchValueChange($event);"></search-bar>
-  <video-detail [selectVideo]="selectVideo"></video-detail>
-  <video-list [Videos]="Videos"></video-list>
+  <div class="container">
+    <div class="left">
+    <video-detail [selectVideo]="selectVideo"></video-detail>
+  </div>
+  <div class="right">
+    <video-list [Videos]="Videos"></video-list>
+  </div>
+    <div class="clear"></div>
+  </div>

@@ -14,13 +14,14 @@ import videolistItem from './main/video-list/video-list-item';
 import videodetails from './main/video-detail/video-detail';
 //import {LocalStorageService} from './local.storage.service';
 import {HttpModule} from '@angular/http';
+import  {SafePipe} from './Pipe';
 
 @NgModule({
     imports: [
         BrowserModule,FormsModule,HttpModule,FormsModule
     ],
     declarations: [
-        AppComponent,HeaderComponent,videoList,FooterComponent,
+        AppComponent,HeaderComponent,videoList,FooterComponent,SafePipe,
         YouTube,LoaderComponent,SearchBar,videolistItem,videodetails
     ],
     providers : [LoaderService,HttpClient],
