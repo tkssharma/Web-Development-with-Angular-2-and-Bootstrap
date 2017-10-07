@@ -14,7 +14,6 @@ body {
   color: inherit;
 }
 
-
 .app-header {
   display: flex;
   justify-content: space-between;
@@ -28,6 +27,18 @@ body {
 .container{
   width:1200px;
   margin: auto;
+}
+
+.media-title {
+  padding: 10px;
+}
+
+.listing {
+  width: 100%;
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .search-bar {
@@ -45,32 +56,5 @@ body {
     background-image: none;
     border: 1px solid #c7bcb8;
     border-radius: 0px !important;
-  }
-}
-.video-item img {
-  max-width: 64px;
-}
-.clear{
-  clear: both;
-}
-
-.left {
-  width: 60%;
-  float: left;
-}
-.video-detail {
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.right{
-  width: 40%;
-  float: right;
-}
-.list-group-item {
-  cursor: pointer;
-  &:hover {
-    background-color: #eee;
   }
 }

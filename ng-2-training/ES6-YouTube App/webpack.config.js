@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require( 'html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -36,7 +37,6 @@ module.exports = {
             },
             {
                      test: /\.css$/,
-                     exclude: /node_modules/,
                      loader: "style-loader!css-loader"
                  }, {
                      test: /\.scss$/,
@@ -52,5 +52,11 @@ module.exports = {
             { test: /\.css$/,  loader: 'to-string-loader!css-loader' },
 
         ]
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+          template: 'src/index.html',
+          inject: true
+        })
+      ]
 };

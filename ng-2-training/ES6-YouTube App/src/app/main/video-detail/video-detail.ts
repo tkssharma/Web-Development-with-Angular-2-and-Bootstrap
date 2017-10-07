@@ -1,27 +1,37 @@
-import { Component, Input, OnInit } from '@angular/core';
-import {DomSanitizer,SafeResourceUrl,} from '@angular/platform-browser';
+import {Component, Input, OnInit, SimpleChanges, SimpleChange,OnChanges} from '@angular/core';
+import {DomSanitizer, SafeResourceUrl} from '@angular/platform-browser';
 
+@Component({selector: 'video-detail', templateUrl: './video-detail.html'})
 
-@Component({
-  selector: 'video-detail',
-  templateUrl: './video-detail.html'
-})
+export default class VideoDetails implements OnChanges {
+  videoId : any;
+  id : string;
+  url : SafeResourceUrl;
+  //@Input() selectVideo : any;
 
-export default class SearchBar implements OnInit {
-  @Input() selectVideo: any;
-  videoId: any;
-  id: string;
-  url: SafeResourceUrl;
+  constructor(public sanitizer : DomSanitizer,private ngZone: NgZone) {}
+  public _selectVideo : any;
 
-
-  constructor(public sanitizer:DomSanitizer) {
+  get selectVideo() : any {
+    // transform value for display
+    return this._selectVideo;
   }
-  ngOnInit() {
+
+  @Input()set selectVideo(value : any) {
+    this._selectVideo = value;
+    if (this._selectVideo && this._selectVideo.id) {
+      console.log(this._selectVideo);
+      this.url = `https://www.youtube.com/embed/${this._selectVideo.id.videoId}`;
+    }
+    // do something on 'aa' change
+  }
+  ngOnChanges(changes : any) {
     if(this.selectVideo){
-       this.videoId = this.selectVideo.id.videoId;
-       this.id = `https://www.youtube.com/embed/${this.videoId}`;
-       this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.id);
-       console.log(this.url);
+      const selectVideo : SimpleChange = changes.selectVideo;
+      console.log('prev value: ', selectVideo.previousValue);
+      console.log('got name: ', selectVideo.currentValue);
+      this._selectVideo = selectVideo.currentValue;
+
     }
   }
 }

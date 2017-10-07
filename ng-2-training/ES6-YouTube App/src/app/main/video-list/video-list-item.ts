@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit,EventEmitter,Output } from '@angular/core';
 import {video} from  '../video';
 @Component({
     selector: 'video-list-item',
@@ -7,6 +7,14 @@ import {video} from  '../video';
 
 class VideoListItem implements OnInit {
    @Input() videoList:any;
+   @Output() clickChange = new EventEmitter();
+
+   handleClick(){
+      this.clickChange.emit({
+        value: this.videoList
+      });
+   }
+
    url:any;
    title:any;
    ngOnInit(){

@@ -1,9 +1,8 @@
-<div class='video-detail col-md-8'>
- <div class='embed-responsive embed-responsive-16by9'>
-  <iframe class="embed-responsive-item" [src]="id | safe"></iframe>
+<div class='video-detail'>
+ <div class='embed-responsive embed-responsive-16by9' *ngIf="_selectVideo" >
+   <iframe [src]="url | safe" ></iframe>
  </div>
- <div class="details">
-  <div>{{selectVideo.title}}</div>
-  <div>{{selectVideo.description}}</div>
+ <div class="details media-title" *ngIf="_selectVideo">
+   <div *ngIf="_selectVideo.snippet" >{{_selectVideo.snippet.title}}</div>
  </div>
 </div>

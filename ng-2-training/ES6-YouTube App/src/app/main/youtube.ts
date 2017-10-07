@@ -30,6 +30,10 @@ export default class Youtube implements OnInit {
             this.loaded = true;
           })
     }
+    handleClickParentChange(e:any){
+      console.log(e);
+      this.selectVideo = e.value;
+    }
     SearchValueChange(event:any){
       this.loaded = false;
       var params = {
@@ -39,9 +43,8 @@ export default class Youtube implements OnInit {
         }
         client.search(params, (err:any, data:any) => {
           // your magic..
-          console.dir(data);
           this.Videos = data.items;
-          this.selectVideo = data.items[2]
+          this.selectVideo = data.items[0]
           this.loaded = true;
       });
     }
