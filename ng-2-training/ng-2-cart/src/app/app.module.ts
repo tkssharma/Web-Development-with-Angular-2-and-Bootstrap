@@ -12,6 +12,7 @@ import shoppingCart from './cart/shopping-cart';
 import {HttpModule} from '@angular/http';
 import shoppingCartItem from './cart/shopping-cart-item';
 import shoppingList from './cart/shopping-list';
+import {cartService} from './cart/cartService';
 
 @NgModule({
     imports: [
@@ -27,7 +28,7 @@ import shoppingList from './cart/shopping-list';
         shoppingList
     ],
     providers: [
-        LoaderService, HttpClient
+        LoaderService, HttpClient, cartService
     ],
     bootstrap: [AppComponent]
 })
