@@ -14,6 +14,7 @@ ul {
   float: left;
   width: 30%;
   margin-right: 5%;
+  MIN-HEIGHT: 300PX;
 }
 
 .products-list li:nth-of-type(3n) {
@@ -24,10 +25,6 @@ ul {
 .product__price {
   display: inline-block;
   line-height: 34px;
-}
-
-.product__button-wrap {
-  float: right;
 }
 
 /* cart */

@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-
+var json = require('./mock/product.js')
 var app = express();
 app.use(function (req, res, next) {
  res.header("Access-Control-Allow-Origin", "*");
@@ -11,7 +11,7 @@ const jsonPath = path.join(__dirname, './mock/product.json');
 
 app.get('/api', function (req, res) {
 
-   res.sendFile(jsonPath)
+   res.json(json)
 });
 
 var server = app.listen(3000, function () {

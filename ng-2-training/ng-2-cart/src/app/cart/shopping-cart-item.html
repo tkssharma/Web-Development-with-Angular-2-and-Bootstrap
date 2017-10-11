@@ -1,0 +1,11 @@
+<div class="thumbnail">
+  <img src={{product.url}} class="fixwidth" alt="product image" />
+  <div class="caption clearfix">
+    <h5><a href={{product.url}}>{{product.name}}</a></h5>
+    <div class="product__price">{{product.price}} {{product.currency}}</div>
+    <div class="product__button-wrap">
+      <button (click)="AddProduct()" class="btn btn-primary">Add to cart
+      </button>
+    </div>
+  </div>
+</div>
