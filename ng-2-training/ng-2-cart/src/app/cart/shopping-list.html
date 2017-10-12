@@ -1,11 +1,11 @@
 <div class="panel panel-default">
   <div class="panel-body">
      <ul>
-       <li  class="cart-item">
-         <span class="cart-item__name">cart-item</span>
-         <span class="cart-item__price">1200$</span>
+       <li *ngFor="let item of products"  class="cart-item">
+         <span class="cart-item__name">{{item.name}}</span>
+         <span class="cart-item__price">{{item.price}}</span>
        </li>
      </ul>
-    <div class="cart__total">Total: 1300$</div>
+    <div class="cart__total">Total: </div>
   </div>
 </div>

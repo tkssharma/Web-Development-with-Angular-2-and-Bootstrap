@@ -1,3 +1,4 @@
+import { product } from './../product';
 import { CartState } from './CartState';
 import {HttpClient} from './../http.service';
 
@@ -13,13 +14,16 @@ const url = 'http://localhost:3000/api'
 export class cartService {
   constructor(private httpclient : HttpClient) {}
   private cartSubject = new Subject<CartState>();
-
+    Products : product[]= [];
     CartState = this.cartSubject.asObservable();
     addProduct(_product:any) {
-      this.cartSubject.next(<CartState>{loaded: true});
+      console.log('in service');
+      this.Products.push(_product)
+      this.cartSubject.next(<CartState>{loaded: true, products:  this.Products});
     }
     removeProduct(id:number) {
-      this.cartSubject.next(<CartState>{loaded: false});
+      this.Products = this.Products.filter((_item) =>  _item.id !== id )
+      this.cartSubject.next(<CartState>{loaded: false , products:  this.Products});
     }
 
   getAllProducts() : Observable <any> {

@@ -8,7 +8,7 @@ import {CartState} from './CartState';
 @Component({selector: 'shopping-list', templateUrl: './shopping-list.html'})
 
 export default class shoppingList {
-    loaded : boolean = true;
+    loaded : boolean = true
     products : product[];
     private subscription : Subscription;
     constructor(private _cartService : cartService) {}
@@ -19,7 +19,9 @@ export default class shoppingList {
             .CartState
             .subscribe((state : CartState) => {
                 this.products = state.products;
+                console.log(this.products);
             });
+
     }
     ngOnDestroy() {
         this
